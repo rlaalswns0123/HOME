@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-family: "Bagel Fat One", system-ui;
+    font-size: 200%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color: #fff
+}
+
+h1:hover{
+    color: aquamarine;
+    
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.bagel-fat one-regular {
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
